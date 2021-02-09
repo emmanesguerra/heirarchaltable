@@ -8,19 +8,19 @@
 </style>
 
 <div style="float: left; width: 100%">
-    <form style="float: left; border: 1px #000 solid; padding: 10px; width: 450px" method="post" action="functions/add.php">
+    <form style="float: left; border: 1px #000 solid; padding: 8px; width: 451px" method="post" action="functions/add.php">
         <h3>Add Node</h3>
         <label style="float: left; width: 100px">Name</label> <input type="textbox" name="name" /><br />
         <label style="float: left; width: 100px">Parent ID</label> <input type="textbox" name="parent_id" /><br />
         <input type="submit" value="Submit" />
     </form> 
-    <form style="float: left; border: 1px #000 solid; padding: 10px; width: 450px" method="post" action="functions/move.php">
+    <form style="float: left; border: 1px #000 solid; padding: 8px; width: 451px; margin-left: 0;" method="post" action="functions/move.php">
         <h3>Move Node</h3>
         <label style="float: left; width: 100px">ID</label> <input type="textbox" name="id" /><br />
         <label style="float: left; width: 100px">Parent ID</label> <input type="textbox" name="parent_id" /><br />
         <input type="submit" value="Submit" />
     </form>
-    <form style="float: left; border: 1px #000 solid; padding: 10px; width: 450px" method="post" action="functions/remove.php">
+    <form style="float: left; border: 1px #000 solid; padding: 8px; width: 451px; margin-left: 0;" method="post" action="functions/remove.php">
         <h3>Delete Node</h3>
         <label style="float: left; width: 100px">ID</label> <input type="textbox" name="id" /><br />
         <input type="submit" value="Submit" />
