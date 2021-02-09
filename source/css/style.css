@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 9, 2021, 10:55:03 AM
+    Author     : alvin
+*/
+
+* {
+    font-family:"Courier New";
+    margin: 4px;
+}
+
+.displaytable,
+.mainform {
+    float: left; 
+    width: 100%;
+}
+
+.mainform form {
+    float: left; 
+    border: 1px #000 solid; 
+    padding: 8px; 
+    width: 451px;
+}
+
+.mainform form label {
+    float: left; 
+    width: 100px;
+}
+
+.displaytable table {
+    float: left; 
+    width: 469px;
+    border: 1px #000 solid;
+}
+
+.displaytable table .hide {
+    float: right;
+    font-size: 12px;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.displaytable .tree-list {
+    float: left; 
+}
+
+.displaytable .tree-list .subdata {
+    display: none;
+}
+
+.displaytable .tree-list .expand {
+    cursor: pointer;
+    color: #f00;
+}
